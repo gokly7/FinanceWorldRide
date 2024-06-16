@@ -30,8 +30,8 @@
             filePath = "FinanceWorldRide/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "FinanceWorldRide/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
             <Locations>
@@ -283,8 +283,8 @@
             filePath = "FinanceWorldRide/Services/Finnhub.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "fetchStockMarketData(for:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -299,10 +299,274 @@
             filePath = "FinanceWorldRide/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57FE3370-3580-4777-BCAE-7CB606965481"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinanceWorldRide/Notifications/FWRNotifications.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "loadStockMarket()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "57FE3370-3580-4777-BCAE-7CB606965481 - 2a98fa7408fcd3f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockMarket() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "57FE3370-3580-4777-BCAE-7CB606965481 - 2a98fa7408fcd3f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockMarket() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "57FE3370-3580-4777-BCAE-7CB606965481 - 2a98fa7408fcd458"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockMarket() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "57FE3370-3580-4777-BCAE-7CB606965481 - 2a98fa7408fcd458"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockMarket() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "57FE3370-3580-4777-BCAE-7CB606965481 - 2a98fa7408fcd458"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockMarket() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "248">
+               </Location>
+               <Location
+                  uuid = "57FE3370-3580-4777-BCAE-7CB606965481 - 2a98fa7408fcd458"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockMarket() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "57FE3370-3580-4777-BCAE-7CB606965481 - 2a98fa7408fcd3b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockMarket() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "57FE3370-3580-4777-BCAE-7CB606965481 - 2a98fa7408fcd3b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockMarket() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A41C245-3F31-4F86-B246-07AC0EF0337C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinanceWorldRide/Notifications/FWRNotifications.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "loadStockFromAPI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A41C245-3F31-4F86-B246-07AC0EF0337C - 287f48291f7842fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockFromAPI() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "8A41C245-3F31-4F86-B246-07AC0EF0337C - 287f48291f78429d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockFromAPI() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "8A41C245-3F31-4F86-B246-07AC0EF0337C - a3ff251dcb8093b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.scheduleWhenStocksOpen() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "4520">
+               </Location>
+               <Location
+                  uuid = "8A41C245-3F31-4F86-B246-07AC0EF0337C - 287f48291f7843a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.loadStockFromAPI() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64A83D91-C6D4-45D9-A963-91ED9D9F1451"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FinanceWorldRide/Notifications/FWRNotifications.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "scheduleWhenStocksOpen()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "64A83D91-C6D4-45D9-A963-91ED9D9F1451 - a3ff251dcb80907f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.scheduleWhenStocksOpen() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2244">
+               </Location>
+               <Location
+                  uuid = "64A83D91-C6D4-45D9-A963-91ED9D9F1451 - a3ff251dcb80907f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FinanceWorldRide.FWRNotifications.scheduleWhenStocksOpen() -&gt; ()"
+                  moduleName = "FinanceWorldRide"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/albertoayuso/Documents/GitHub/FinanceWorldRide/FinanceWorldRide/Notifications/FWRNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "1708">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

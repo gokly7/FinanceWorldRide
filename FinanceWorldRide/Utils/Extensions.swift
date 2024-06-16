@@ -9,6 +9,7 @@ import Foundation
 
 extension Notification.Name {
     
-    //Observer for call function to update main tableView
+    //Observers
     static let updateTableView = Notification.Name("updateTableView")
+    static let loadStockMarket = Notification.Name("loadStockMarket")
 }

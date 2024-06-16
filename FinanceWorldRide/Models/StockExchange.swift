@@ -11,9 +11,9 @@ class StockExchange{
     
     public var symbol: String
     public var currentPrice: Double
-    public var openPrice: Double
+    public var openPrice: Double?
     
-    init(symbol: String, currentPrice: Double, openPrice: Double) {
+    init(symbol: String, currentPrice: Double, openPrice: Double? = nil) {
         self.symbol = symbol
         self.currentPrice = currentPrice
         self.openPrice = openPrice

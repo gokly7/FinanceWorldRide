@@ -9,7 +9,7 @@ import Foundation
 
 class Utils {
     /**
-        Format number so that only 2 decimal appear
+        Check if the Stock Exchange nasdaq is open
      */
     static func isOpenNowNasdaq() -> Bool{
         let currentDateTime = Date()
@@ -25,6 +25,13 @@ class Utils {
         } else {
             return false
         }
+    }
+    
+    /**
+        Format number so that only 2 decimal appear
+     */
+    static func formattedPercentage(_ percentage: Double) -> String{
+        return String(format: "%.2f", percentage)
     }
     
 }

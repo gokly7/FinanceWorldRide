@@ -9,16 +9,22 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
+    
+    var notifications = FWRNotifications()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        //Notificaciones
+        notifications.scheduleWhenStocksOpen()
+        
         // Solicitar permisos de notificación
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { (granted, error) in
             if granted {
-                //Permission accepted
+                print("Permission Notification accepted")
             }
        }
+        
         
         UNUserNotificationCenter.current().delegate = self
         
