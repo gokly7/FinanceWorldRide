@@ -12,9 +12,34 @@
 
 import UIKit
 
-class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MainViewController: UITableViewController {
   
     @IBOutlet weak var actionTableView: UITableView!
+    
+    /**
+        Alert for adding a stock exchange to the portfolio
+     */
+    @IBAction func addSymbol(_ sender: UIBarButtonItem) {
+        let alertController = UIAlertController(title: "Añade una empresa", message: "Introduzca el Symbol de la empresa", preferredStyle: .alert)
+        
+        alertController.addTextField { textField in
+              textField.placeholder = "NVDA"
+          }
+        
+        let sendAction = UIAlertAction(title: "Enviar", style: .default) { action in
+            if let textField = alertController.textFields?.first, let text = textField.text {
+                print(text)
+            }
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
+        
+        alertController.addAction(sendAction)
+        alertController.addAction(cancelAction)
+        
+        //Ejecutamos la alerta
+        present(alertController, animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +59,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     // MARK: - UITableViewDataSource
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if Finnhub.stockExchanges.count < 0 {
             return Finnhub.stockExchanges.count
         }else{
@@ -42,7 +67,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = actionTableView.dequeueReusableCell(withIdentifier: "actionCell", for: indexPath)
         configureCell(cell: cell, indexPath: indexPath)
         return cell

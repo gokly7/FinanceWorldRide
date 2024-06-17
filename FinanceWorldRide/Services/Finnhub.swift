@@ -9,7 +9,7 @@ import Foundation
 
 class Finnhub {
     
-    static let symbols = ["LLY", "GOOGL", "MDB", "AMD", "TTWO", "NVDA"]
+    static var symbols = ["LLY", "GOOGL", "MDB", "AMD", "TTWO", "NVDA"]
     
     static var stockExchanges : [StockExchange] = []
     static var stockExchangesNotify : [StockExchange] = []
